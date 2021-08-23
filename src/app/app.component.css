@@ -1,0 +1,41 @@
+
+.first{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-family: auto;
+}
+input{
+    margin-top: 30px;
+}
+.signup{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    top: 20px;
+    border: 1px solid wheat;
+    padding: 30px;
+    padding-bottom: 10px!important;
+    border-radius: 5px;
+    background: whitesmoke!important;
+}
+.form-control{
+    padding: 10px;
+    padding: 20px;
+}
+.button{
+    margin-top: 20px;
+}
+@media screen and (max-width: 1125px) {
+    .signup{
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .signup{
+        width: 80%;
+        left: 10%;
+    }
+}
